@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Approvals for monday.com | Sign-off on any item</title>
+<meta name="description" content="Ask anyone to approve a monday.com item, in order, all at once, or first answer wins. One inbox for approvers, decisions posted to item updates, status column for automations.">
+<link rel="icon" href="img/app-icon-192.png">
+<style>
+:root{--blue:#0073ea;--text:#323338;--muted:#676879;--bg:#f6f7fb}
+*{box-sizing:border-box}body{margin:0;font:17px/1.6 -apple-system,"Segoe UI",Roboto,Arial,sans-serif;color:var(--text);background:#fff}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+header{display:flex;align-items:center;justify-content:space-between;padding:18px 0}
+header a{color:var(--text);text-decoration:none;margin-left:20px;font-size:15px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:700;font-size:19px}
+.brand img{width:36px;height:36px;border-radius:8px}
+.hero{display:grid;grid-template-columns:1fr 1.25fr;gap:40px;align-items:center;padding:40px 0 60px}
+h1{font-size:44px;line-height:1.15;margin:0 0 16px}
+.lead{font-size:19px;color:var(--muted);margin:0 0 24px}
+.install{display:inline-block;background:var(--blue);color:#fff;text-decoration:none;font-weight:600;padding:12px 22px;border-radius:6px}
+.install:hover{background:#0060b9}
+.hero img.shot{width:100%;border-radius:12px;box-shadow:0 12px 40px rgba(20,40,90,.18)}
+section{padding:50px 0;border-top:1px solid #eceef5}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:28px}
+.grid h3{margin:0 0 6px;font-size:19px}.grid p{margin:0;color:var(--muted)}
+.feature{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center;margin:30px 0}
+.feature img{width:100%;border-radius:10px;border:1px solid #e4e6ef}
+.price{display:grid;grid-template-columns:1fr 1fr;gap:24px;max-width:760px}
+.plan{border:1px solid #d0d4e4;border-radius:12px;padding:24px}.plan h3{margin:0}.plan .p{font-size:28px;font-weight:700;margin:6px 0}
+footer{padding:30px 0;color:var(--muted);font-size:14px;border-top:1px solid #eceef5}footer a{color:var(--muted);margin-right:16px}
+@media(max-width:800px){.hero,.feature,.grid,.price{grid-template-columns:1fr}h1{font-size:34px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header><div class="brand"><img src="img/app-icon-192.png" alt="">Approvals</div>
+<nav><a href="help.html">Help</a><a href="#pricing">Pricing</a></nav></header>
+
+<div class="hero">
+<div>
+<h1>Get sign-off on any monday.com item</h1>
+<p class="lead">Ask one person or ten. In order, all at once, or first answer wins. Approvers answer from one inbox, and every decision is posted to the item under the name of the person who made it.</p>
+<a class="install" href="https://auth.monday.com/oauth2/authorize?client_id=4a9c5c2b4b8f4fffd99f7b3d303ea0db&response_type=install" target="_blank" rel="noopener">Add to monday.com</a>
+</div>
+<img class="shot" src="img/gallery-1.png" alt="An approval request in a monday item with three approvers">
+</div>
+</div>
+
+<section><div class="wrap grid">
+<div><h3>Three ways to ask</h3><p>One after another, everyone must approve, or the first approval is enough. Any rejection stops the request.</p></div>
+<div><h3>One inbox for approvers</h3><p>"Waiting on me" lists every open request across boards, sorted by due date. Approve or reject without opening the item.</p></div>
+<div><h3>Works with automations</h3><p>Pick a status column and it changes to Waiting for approval, Approved or Rejected. Build any monday automation on it.</p></div>
+<div><h3>Reasons on rejections</h3><p>Rejecting asks for a reason by default, so the requester knows what to fix.</p></div>
+<div><h3>Hand-offs and due dates</h3><p>Someone away? Hand the request to a colleague. Overdue requests are flagged.</p></div>
+<div><h3>No outside server</h3><p>Data stays in monday's own app storage, and every action runs with the signed-in person's permissions.</p></div>
+</div></section>
+
+<section><div class="wrap">
+<div class="feature"><img src="img/gallery-2.png" alt="Approval inbox"><div><h2>Everything waiting on you, in one place</h2><p>Add the Approvals inbox view to any board. Approvers see what needs them across the whole account, with the reason, the amount and the deadline right there.</p></div></div>
+<div class="feature"><div><h2>Approved? Your automations take it from there</h2><p>Map results to a status column once per board. When it flips to Approved, move the item, notify a channel, or start the next task with the automations you already use.</p></div><img src="img/gallery-3.png" alt="Board settings"></div>
+</div></section>
+
+<section id="pricing"><div class="wrap">
+<h2>Pricing</h2>
+<div class="price">
+<div class="plan"><h3>Free</h3><div class="p">$0</div><p>10 approval requests a month per account. Every feature included.</p></div>
+<div class="plan"><h3>Unlimited</h3><div class="p">From $9/mo</div><p>Unlimited requests. Priced by your monday seat count and billed through monday.com.</p></div>
+</div>
+</div></section>
+
+<footer><div class="wrap"><a href="help.html">Help</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="mailto:MylesCar2828@outlook.com">Contact</a><br>Approvals is built by Myzles. monday.com is a trademark of monday.com Ltd.; this app is not made by monday.com.</div></footer>
+</body>
+</html>
